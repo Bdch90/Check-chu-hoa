@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>Test</title>
+</head>
+<body>
+<script>
+    var str = /^[A-Z]/;
+    function check()
+    {
+        if(str.test('Ahihi123A'))
+        {
+            alert('Yes');
+        }
+        else
+        {
+            alert('No');
+        }
+    }
+    check();
+</script>
+</body>
+</html>
